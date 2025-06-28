@@ -48,9 +48,10 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3.0.0
         with:
-          app-name: "fixgo-api"
+          app-name: "fixgo-api-f0duare7d8g3akaj"
           publish-profile: ${{ secrets.PUBLISH_PROFILE_PROD }}
           package: ./publish
+
 
 
 

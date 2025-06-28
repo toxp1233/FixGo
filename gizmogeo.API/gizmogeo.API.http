@@ -1,0 +1,6 @@
+@gizmogeo.API_HostAddress = http://localhost:5127
+
+GET {{gizmogeo.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

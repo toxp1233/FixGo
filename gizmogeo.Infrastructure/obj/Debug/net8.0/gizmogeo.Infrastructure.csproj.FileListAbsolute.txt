@@ -1,0 +1,17 @@
+C:\Users\user\source\repos\gizmogeo\gizmogeo.Infrastructure\bin\Debug\net8.0\gizmogeo.Infrastructure.deps.json
+C:\Users\user\source\repos\gizmogeo\gizmogeo.Infrastructure\bin\Debug\net8.0\gizmogeo.Infrastructure.runtimeconfig.json
+C:\Users\user\source\repos\gizmogeo\gizmogeo.Infrastructure\bin\Debug\net8.0\gizmogeo.Infrastructure.dll
+C:\Users\user\source\repos\gizmogeo\gizmogeo.Infrastructure\bin\Debug\net8.0\gizmogeo.Infrastructure.pdb
+C:\Users\user\source\repos\gizmogeo\gizmogeo.Infrastructure\bin\Debug\net8.0\gizmogeo.Domain.dll
+C:\Users\user\source\repos\gizmogeo\gizmogeo.Infrastructure\bin\Debug\net8.0\gizmogeo.Domain.pdb
+C:\Users\user\source\repos\gizmogeo\gizmogeo.Infrastructure\obj\Debug\net8.0\gizmogeo.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\gizmogeo\gizmogeo.Infrastructure\obj\Debug\net8.0\gizmogeo.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\gizmogeo\gizmogeo.Infrastructure\obj\Debug\net8.0\gizmogeo.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\gizmogeo\gizmogeo.Infrastructure\obj\Debug\net8.0\gizmogeo.Infrastructure.AssemblyInfo.cs
+C:\Users\user\source\repos\gizmogeo\gizmogeo.Infrastructure\obj\Debug\net8.0\gizmogeo.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\gizmogeo\gizmogeo.Infrastructure\obj\Debug\net8.0\gizmogeo.9B34CF2A.Up2Date
+C:\Users\user\source\repos\gizmogeo\gizmogeo.Infrastructure\obj\Debug\net8.0\gizmogeo.Infrastructure.dll
+C:\Users\user\source\repos\gizmogeo\gizmogeo.Infrastructure\obj\Debug\net8.0\refint\gizmogeo.Infrastructure.dll
+C:\Users\user\source\repos\gizmogeo\gizmogeo.Infrastructure\obj\Debug\net8.0\gizmogeo.Infrastructure.pdb
+C:\Users\user\source\repos\gizmogeo\gizmogeo.Infrastructure\obj\Debug\net8.0\gizmogeo.Infrastructure.genruntimeconfig.cache
+C:\Users\user\source\repos\gizmogeo\gizmogeo.Infrastructure\obj\Debug\net8.0\ref\gizmogeo.Infrastructure.dll

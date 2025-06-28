@@ -32,3 +32,5 @@ Media uploads support photos and videos via Cloudinary.
 Notes
 All necessary environment configurations are set and working in the deployed environment.
 Phone verification is handled via Twilio integration.
+
+this project is the first i ever created and not my last!

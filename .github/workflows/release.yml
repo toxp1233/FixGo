@@ -2,20 +2,20 @@ name: fixgo-api-cd
 
 on:
   push:
-    branches:
+    branches: 
       - main
   workflow_dispatch:
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.1.1
 
       - name: Setup .NET
-        uses: actions/setup-dotnet@v4
+        uses: actions/setup-dotnet@v4.0.0
         with:
           dotnet-version: '8.0.x'
 
@@ -26,14 +26,28 @@ jobs:
         run: dotnet build --no-restore -c Release
 
       - name: Publish
-        run: dotnet publish ./gizmogeo.API/gizmogeo.API.csproj -c Release -o ./publish
+        run: dotnet publish ./gizmogeo.API/gizmogeo.API.csproj -o ${{env.DOTNET_ROOT}}/api --no-build
 
-      - name: Zip the published app
-        run: zip -r publish.zip ./publish
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4.3.1
+        with:
+          name: api-artifact
+          path: ${{env.DOTNET_ROOT}}/api
 
-      - name: Deploy to Azure Web App (ZipDeploy)
-        uses: azure/webapps-deploy@v3
+  deploy-prod:
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - name: Download Build Artifact
+        uses: actions/download-artifact@v4.1.3
+        with:
+          name: api-artifact
+
+      - name: Deploy to Azure Web App
+        uses: azure/webapps-deploy@v3.0.0
         with:
           app-name: "fixgo-api"
           publish-profile: ${{ secrets.PUBLISH_PROFILE_PROD }}
-          package: publish.zip
+
+

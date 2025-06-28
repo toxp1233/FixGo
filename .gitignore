@@ -1,0 +1,10 @@
+appsettings.json
+appsettings.Development.json
+*.log
+*.user
+*.suo
+bin/
+obj/
+.vscode/
+.env
+node_modules/

@@ -31,9 +31,4 @@ Media uploads support photos and videos via Cloudinary.
 
 Notes
 All necessary environment configurations are set and working in the deployed environment.
-
-<<<<<<< HEAD
 Phone verification is handled via Twilio integration.
-=======
-Phone verification is handled via Twilio integration.
->>>>>>> 670e6705e6e0eec4cada1549c3bbb960f59c5a0f

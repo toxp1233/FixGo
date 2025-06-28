@@ -1,4 +1,4 @@
-name: fixgo-api
+name: fixgo-api-ci
 
 on:
   push:

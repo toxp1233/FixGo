@@ -1,0 +1,30 @@
+name: fixgo-api
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 📥 Checkout code
+      uses: actions/checkout@v4.1.1
+
+    - name: 🔧 Setup .NET
+      uses: actions/setup-dotnet@v4.0.0
+      with:
+        dotnet-version: '8.0.x' # Use your project's .NET version
+
+    - name: 📦 Restore dependencies
+      run: dotnet restore
+
+    - name: 🏗️ Build
+      run: dotnet build --no-restore 
+
+    - name: 🧪 Run tests
+      run: dotnet test 

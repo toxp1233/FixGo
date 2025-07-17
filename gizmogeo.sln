@@ -3,18 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gizmogeo.API", "gizmogeo.API\gizmogeo.API.csproj", "{76DBEB90-4DDA-420B-A144-F73C2B810F54}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gizmogeo.Domain", "gizmogeo.Domain\gizmogeo.Domain.csproj", "{FA1CEC68-C53E-4DA0-90D7-BFBFE81DDEF8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gizmogeo.Infrastructure", "gizmogeo.Infrastructure\gizmogeo.Infrastructure.csproj", "{65498931-DD37-4050-BE8A-A262E3C9F5FC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gizmogeo.Application", "gizmogeo.Application\gizmogeo.Application.csproj", "{69F30C6B-CF8E-4588-93FA-1348150AF898}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3659B95E-7F0D-446F-82C9-F983CF993B65}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F14B0FE7-49BF-47CA-8600-7B3E904E3A21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gizmogeo.API", "src\gizmogeo.API\gizmogeo.API.csproj", "{68EC0E7B-404B-A4C8-170C-0C904041D1BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gizmogeo.Application", "src\gizmogeo.Application\gizmogeo.Application.csproj", "{222898B0-797E-9AFD-57C7-83E0F9CA15C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gizmogeo.Domain", "src\gizmogeo.Domain\gizmogeo.Domain.csproj", "{7E5780D3-968D-6BEB-B168-7EB5D2A85BD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gizmogeo.Infrastructure", "src\gizmogeo.Infrastructure\gizmogeo.Infrastructure.csproj", "{1B381AB9-A0E9-0A4D-F5FA-5E3B1B62B748}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gizmogeo.Tests", "gizmogeo.Tests\gizmogeo.Tests.csproj", "{9DD037DF-CE0C-AB63-6420-AF34E41CF192}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,24 +28,38 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{76DBEB90-4DDA-420B-A144-F73C2B810F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76DBEB90-4DDA-420B-A144-F73C2B810F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76DBEB90-4DDA-420B-A144-F73C2B810F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76DBEB90-4DDA-420B-A144-F73C2B810F54}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FA1CEC68-C53E-4DA0-90D7-BFBFE81DDEF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA1CEC68-C53E-4DA0-90D7-BFBFE81DDEF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA1CEC68-C53E-4DA0-90D7-BFBFE81DDEF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA1CEC68-C53E-4DA0-90D7-BFBFE81DDEF8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{65498931-DD37-4050-BE8A-A262E3C9F5FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{65498931-DD37-4050-BE8A-A262E3C9F5FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{65498931-DD37-4050-BE8A-A262E3C9F5FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{65498931-DD37-4050-BE8A-A262E3C9F5FC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{69F30C6B-CF8E-4588-93FA-1348150AF898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{69F30C6B-CF8E-4588-93FA-1348150AF898}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{69F30C6B-CF8E-4588-93FA-1348150AF898}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{69F30C6B-CF8E-4588-93FA-1348150AF898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68EC0E7B-404B-A4C8-170C-0C904041D1BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68EC0E7B-404B-A4C8-170C-0C904041D1BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68EC0E7B-404B-A4C8-170C-0C904041D1BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68EC0E7B-404B-A4C8-170C-0C904041D1BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{222898B0-797E-9AFD-57C7-83E0F9CA15C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222898B0-797E-9AFD-57C7-83E0F9CA15C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222898B0-797E-9AFD-57C7-83E0F9CA15C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222898B0-797E-9AFD-57C7-83E0F9CA15C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E5780D3-968D-6BEB-B168-7EB5D2A85BD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E5780D3-968D-6BEB-B168-7EB5D2A85BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E5780D3-968D-6BEB-B168-7EB5D2A85BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E5780D3-968D-6BEB-B168-7EB5D2A85BD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B381AB9-A0E9-0A4D-F5FA-5E3B1B62B748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B381AB9-A0E9-0A4D-F5FA-5E3B1B62B748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B381AB9-A0E9-0A4D-F5FA-5E3B1B62B748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B381AB9-A0E9-0A4D-F5FA-5E3B1B62B748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DD037DF-CE0C-AB63-6420-AF34E41CF192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD037DF-CE0C-AB63-6420-AF34E41CF192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD037DF-CE0C-AB63-6420-AF34E41CF192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD037DF-CE0C-AB63-6420-AF34E41CF192}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{68EC0E7B-404B-A4C8-170C-0C904041D1BC} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{222898B0-797E-9AFD-57C7-83E0F9CA15C7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{7E5780D3-968D-6BEB-B168-7EB5D2A85BD1} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{1B381AB9-A0E9-0A4D-F5FA-5E3B1B62B748} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9DD037DF-CE0C-AB63-6420-AF34E41CF192} = {F14B0FE7-49BF-47CA-8600-7B3E904E3A21}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A50F38B-140B-4B45-9931-C87FB2609032}
 	EndGlobalSection
 EndGlobal

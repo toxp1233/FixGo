@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\gizmogeo\\gizmogeo.Infrastructure\\gizmogeo.Infrastructure.csproj": {}
+    "D:\\FixGo\\gizmogeo.Infrastructure\\gizmogeo.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\gizmogeo\\gizmogeo.Domain\\gizmogeo.Domain.csproj": {
+    "D:\\FixGo\\gizmogeo.Domain\\gizmogeo.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\gizmogeo\\gizmogeo.Domain\\gizmogeo.Domain.csproj",
+        "projectUniqueName": "D:\\FixGo\\gizmogeo.Domain\\gizmogeo.Domain.csproj",
         "projectName": "gizmogeo.Domain",
-        "projectPath": "C:\\Users\\user\\source\\repos\\gizmogeo\\gizmogeo.Domain\\gizmogeo.Domain.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\gizmogeo\\gizmogeo.Domain\\obj\\",
+        "projectPath": "D:\\FixGo\\gizmogeo.Domain\\gizmogeo.Domain.csproj",
+        "packagesPath": "C:\\Users\\chakh\\.nuget\\packages\\",
+        "outputPath": "D:\\FixGo\\gizmogeo.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chakh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -42,9 +42,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -71,24 +71,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\user\\source\\repos\\gizmogeo\\gizmogeo.Infrastructure\\gizmogeo.Infrastructure.csproj": {
+    "D:\\FixGo\\gizmogeo.Infrastructure\\gizmogeo.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\gizmogeo\\gizmogeo.Infrastructure\\gizmogeo.Infrastructure.csproj",
+        "projectUniqueName": "D:\\FixGo\\gizmogeo.Infrastructure\\gizmogeo.Infrastructure.csproj",
         "projectName": "gizmogeo.Infrastructure",
-        "projectPath": "C:\\Users\\user\\source\\repos\\gizmogeo\\gizmogeo.Infrastructure\\gizmogeo.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\gizmogeo\\gizmogeo.Infrastructure\\obj\\",
+        "projectPath": "D:\\FixGo\\gizmogeo.Infrastructure\\gizmogeo.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\chakh\\.nuget\\packages\\",
+        "outputPath": "D:\\FixGo\\gizmogeo.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chakh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -103,8 +103,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\user\\source\\repos\\gizmogeo\\gizmogeo.Domain\\gizmogeo.Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\source\\repos\\gizmogeo\\gizmogeo.Domain\\gizmogeo.Domain.csproj"
+              "D:\\FixGo\\gizmogeo.Domain\\gizmogeo.Domain.csproj": {
+                "projectPath": "D:\\FixGo\\gizmogeo.Domain\\gizmogeo.Domain.csproj"
               }
             }
           }
@@ -117,9 +117,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -172,7 +172,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

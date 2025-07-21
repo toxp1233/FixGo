@@ -12,7 +12,7 @@ using System.Security.Claims;
 
 namespace gizmogeo.API.Controllers;
 
-//[Authorize]
+[Authorize]
 [Route("api/[controller]")]
 [ApiController]
 public class ServicesController(IMediator mediator) : ControllerBase

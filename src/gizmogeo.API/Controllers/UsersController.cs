@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace gizmogeo.API.Controllers
 {
-    //[Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin")]
     [Route("api/[controller]")]
     [ApiController]
     public class UsersController(IMediator mediator) : ControllerBase

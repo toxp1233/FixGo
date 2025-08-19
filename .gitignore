@@ -8,3 +8,5 @@ obj/
 .vscode/
 .env
 node_modules/
+/src/gizmogeo.API/appsettings.Production.json
+/src/gizmogeo.API/appsettings.Production.json

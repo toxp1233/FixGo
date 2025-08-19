@@ -12,8 +12,7 @@ Phone verification via Twilio
 Cloudinary for storing videos and photos
 
 Deployment
-The API is deployed on Azure. Access the Swagger UI for testing and documentation at:
-https://fixgo-api-f0duare7d8g3akaj.westeurope-01.azurewebsites.net/swagger/index.html
+The API is ready to be deployed to azure
 
 Authentication & Token Management
 Access tokens are valid for 15 minutes.
@@ -23,7 +22,7 @@ Refresh tokens are valid for 7 days.
 To maintain user sessions, the front-end should request a new access token using the refresh token and user ID before expiration.
 
 How to Use
-Use the Swagger interface to explore all available endpoints.
+Use the Swagger interface to explore all available endpoints once its deployed.
 
 Ensure the front-end passes valid tokens for authorized requests.
 

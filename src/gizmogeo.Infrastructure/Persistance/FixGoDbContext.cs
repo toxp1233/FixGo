@@ -80,5 +80,17 @@ public class FixGoDbContext(DbContextOptions<FixGoDbContext> options) : DbContex
             .HasForeignKey<CompletedOrder>(co => co.AcceptedRequestId)
             .OnDelete(DeleteBehavior.SetNull);
 
+        modelBuilder.Entity<AcceptedRequest>()
+            .Property(a => a.EstimatedCost)
+            .HasPrecision(18, 2);  
+
+        modelBuilder.Entity<User>()
+            .Property(u => u.Balance)
+            .HasPrecision(18, 2);
+
+        modelBuilder.Entity<CompletedOrder>()
+            .Property(c => c.FinalCost)
+            .HasPrecision(18, 2);
+
     }
 }

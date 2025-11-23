@@ -48,15 +48,12 @@ public class CompletedOrderController(IMediator mediator) : ControllerBase
         return Ok(order);
     }
     [HttpPatch("{Id:guid}/notes")]
-    public async Task<IActionResult> PatchNotes(Guid Id, PatchNotesCommand command) 
-
-
+    public async Task<IActionResult> PatchNotes(Guid Id, PatchNotesCommand command)
     {
         command.Id = Id;
         var patchedCompletedOrder = await mediator.Send(command);
         return Ok(patchedCompletedOrder);
     }
-    //[HttpPatch("{Id:guid}/attachments")]
 
     private Guid GetUserId()
     {

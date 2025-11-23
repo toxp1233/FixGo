@@ -32,6 +32,7 @@ namespace gizmogeo.Infrastructure.Migrations
                         .HasColumnType("int");
 
                     b.Property<decimal?>("EstimatedCost")
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("Message")
@@ -101,6 +102,7 @@ namespace gizmogeo.Infrastructure.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<decimal>("Balance")
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<DateTime>("CreatedAt")
@@ -221,6 +223,7 @@ namespace gizmogeo.Infrastructure.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<decimal>("FinalCost")
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("Notes")
